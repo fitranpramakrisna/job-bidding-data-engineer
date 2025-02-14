@@ -1,4 +1,6 @@
-CREATE TABLE port_details (
+
+
+CREATE TABLE avg_time_per_ship (
     port_id SERIAL PRIMARY KEY,
     port_name VARCHAR(100) NOT NULL,
     location VARCHAR(100) NOT NULL
