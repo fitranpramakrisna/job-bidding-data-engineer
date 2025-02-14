@@ -17,8 +17,9 @@ USER airflow
 RUN pip install \
     lxml \
     pandas==1.2.4 \
-    python-dotenv==1.0.1
+    python-dotenv==1.0.1 \
+    canvasapi==3.3.0 \
+    reportlab==4.3.1
     # pandas-gbq==0.27.0
 
-# COPY /dags /opt/airflow/dags
 
